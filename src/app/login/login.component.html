@@ -1,22 +1,35 @@
-<!-- login.component.html -->
 
 <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-md-6">
-        <h2 class="text-center mb-4">Inicia Sesión</h2>
+        <h2 class="text-center mb-5">Inicia Sesión</h2>
         <form>
-          <div class="mb-3">
-            <label for="username" class="form-label">Usuario o correo electrónico</label>
+          <div class="mb-3 mt-5">
+            <label for="username" class="form-label mb-2">Usuario o correo electrónico</label>
             <input type="text" class="form-control" id="username">
           </div>
           <div class="mb-3">
-            <label for="password" class="form-label">Contraseña</label>
+            <label for="password" class="form-label mb-2">Contraseña</label>
             <input type="password" class="form-control" id="password">
           </div>
             <div class="d-grid">
                 <button type="submit" class="btn btn-custom"> Entrar</button>
               </div>
         </form>
+
+        <div class="mt-5  mb-5 text-start">
+            <a href="#" class="text-decoration-underline text-black">¿Olvidaste tu contraseña?</a>
+          </div>
+
+          <hr class="mt-4">
+
+          <div class="text-center mt-2">
+            <span class="bg-white px-2">¿No tienes cuenta?</span>
+            
+          </div>
+          <div class="d-grid mt-5">
+          <button routerLink="/registro" type="button" class="btn btn-outline-secondary ms-2">Regístrate</button>
+          </div>
       </div>
     </div>
   </div>
