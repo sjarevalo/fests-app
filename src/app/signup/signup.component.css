@@ -1,3 +1,11 @@
+*{
+  font-family: roboto;
+}
+
+h2{
+  font-weight: bold;
+}
+
 .btn-custom {
     background-color: #665DF4;
     border-color: #665DF4;

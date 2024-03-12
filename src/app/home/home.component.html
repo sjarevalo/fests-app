@@ -1,0 +1,39 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h2 class="text-center mb-5">Mi Cuenta</h2>
+      <form>
+        <div class="mb-3 mt-5">
+          <label for="username" class="form-label mb-2">Nombre</label>
+          <p class="ptext">Juan Rodriguez</p>
+        </div>
+        <div class="mb-3 mt-5">
+          <label for="username" class="form-label mb-2">Correo electrónico</label>
+          <p class="ptext">JRod64&#64;gmail.com</p>
+        </div>
+        <div class="mb-3 mt-5">
+          <label for="password" class="form-label mb-2">Contraseña</label>
+          <div class="row ptext">
+            <div class="col-md-8">
+              <input id="passwordinput" type="password" value="password" class="form-control">
+            </div>
+            <button onclick="showPassword()" class="btn col-md-1">
+              <i class="fa fa-eye"></i>
+            </button>
+            <button type="submit" class="btn btn-custom col-md-2">Cambiar</button>
+          </div>
+
+        </div>
+        <div class="d-grid col-md-4">
+          <button routerLink="/login" type="submit" class="btn btn-custom">Cerrar Sesión</button>
+        </div>
+        <div class="d-grid col-md-4">
+          <button type="submit" class="btn btn-custom">Eliminar mi cuenta</button>
+        </div>
+      </form>
+
+
+    </div>
+  </div>
+</div>
+
